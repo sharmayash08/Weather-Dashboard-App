@@ -34,9 +34,9 @@ export const SearchBar = () => {
           value={city}
           onChange={(e) => setCity(e.target.value)}
           placeholder="Search for cities..."
-          className={`w-full pl-12 pr-4 py-3 bg-${isDarkMode ? 'weather-card-light' : 'weather-card-light'} rounded-xl 
+          className={`w-full pl-12 pr-4 py-3 bg-${isDarkMode ? 'weather-card-dark' : 'weather-card-light'} rounded-xl 
             text-${isDarkMode ? 'weather-text-dark' : 'weather-text-light'}
-            placeholder:text-${isDarkMode ? 'weather-secondary-dark' : 'weather-secondary-light'}
+            placeholder:text-${isDarkMode ? 'weather-card-light' : 'weather-secondary-light'}
             border border-${isDarkMode ? 'weather-dark/10' : 'gray-200'}
             focus:outline-none focus:ring-2 focus:ring-weather-accent focus:border-transparent
             disabled:opacity-50 disabled:cursor-not-allowed`}

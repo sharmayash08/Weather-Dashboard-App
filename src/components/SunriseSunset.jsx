@@ -29,8 +29,8 @@ export const SunriseSunset = () => {
   );
 
   return (
-    <div className={`bg-${isDarkMode ? 'weather-card-light' : 'weather-card-light'} shadow-lg rounded-2xl p-6 mt-6`}>
-      <h2 className={`text-xl font-semibold mb-4 text-${isDarkMode ? 'weather-text-dark' : 'weather-text-light'}`}>
+    <div className={`bg-${isDarkMode ? 'weather-card-dark' : 'weather-card-light'} shadow-lg text-${isDarkMode ? 'weather-card-light' : 'weather-card-dark'} rounded-2xl p-6 mt-6`}>
+      <h2 className={`text-xl font-semibold mb-4 text-${isDarkMode ? 'weather-card-light' : 'weather-card-dark'}`}>
         Sunrise & Sunset
       </h2>
       
@@ -43,7 +43,7 @@ export const SunriseSunset = () => {
             <path d="M17.293 13.293A8 8 0 016.707 2.707a8.001 8.001 0 1010.586 10.586z" />
           </svg>
         </div>
-        <div className={`h-2 bg-${isDarkMode ? 'weather-dark' : 'weather-light'}/30 rounded-full overflow-hidden`}>
+        <div className={`h-2 bg-${isDarkMode ? 'weather-dark' : 'weather-dark'}/30 rounded-full overflow-hidden`}>
           <div
             className="h-full bg-gradient-to-r from-yellow-400 to-orange-400 transition-all duration-1000"
             style={{ width: `${progress}%` }}
