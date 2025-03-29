@@ -1,12 +1,12 @@
 import { useWeather } from '../context/WeatherContext';
 
 export const ThemeToggle = () => {
-  const { isDarkMode, toggleTheme } = useWeather();
+  const {isDarkMode,toggleTheme } = useWeather();
 
   return (
     <button
       onClick={toggleTheme}
-      className={`p-2 rounded-lg bg-${isDarkMode ? 'weather-card-light' : 'weather-card-dark'} cursor-pointer`}
+      className={`p-2 rounded-lg bg-weather-card-dark dark:bg-weather-card-light cursor-pointer`}
       aria-label="Toggle theme"
     >
       {isDarkMode ? (

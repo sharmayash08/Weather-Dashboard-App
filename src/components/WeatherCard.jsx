@@ -14,7 +14,7 @@ export const WeatherCard = () => {
 
   if (error) {
     return (
-      <div className={`bg-${isDarkMode ? 'weather-card-light' : 'weather-card-dark'} rounded-2xl p-8`}>
+      <div className={`bg-${isDarkMode ? 'weather-card-dark' : 'weather-card-light'} rounded-2xl p-8`}>
         <p className={`text-red-${isDarkMode ? '400' : '500'} text-center`}>{error}</p>
       </div>
     );
@@ -31,7 +31,7 @@ export const WeatherCard = () => {
   }
 
   return (
-    <div className={`bg-${isDarkMode ? 'weather-card-light' : 'weather-card-dark'} rounded-2xl p-8`}>
+    <div className={`bg-${isDarkMode ? 'weather-card-dark' : 'weather-card-light'} rounded-2xl p-8`}>
       <div className="flex justify-between items-start mb-8">
         <div>
           <h2 className={`text-4xl font-bold mb-2 text-${isDarkMode ? 'weather-text-dark' : 'weather-text-light'}`}>
