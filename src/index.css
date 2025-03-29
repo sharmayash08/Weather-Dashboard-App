@@ -1,0 +1,20 @@
+@import "tailwindcss";
+
+@theme{
+    --color-weather-dark: #1a1a1a;
+    --color-weather-light: #f5f5f5;
+    --color-weather-card-dark: #242424;
+    --color-weather-card-light: #ffffff;
+    --color-weather-accent: #3BAEA7;
+    --color-weather-text-dark: #E1E1E1;
+    --color-weather-text-light: #1a1a1a;
+    --color-weather-secondary-dark: #9CA3AF;
+    --color-weather-secondary-light: #64748b;
+
+    --font-sans: Inter, system-ui, sans-serif;
+
+    --radius-xl: 1rem;
+    --radius-2xl: 1.5rem;
+
+}
+
