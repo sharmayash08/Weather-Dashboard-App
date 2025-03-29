@@ -14,7 +14,7 @@ export const RecentSearches = () => {
           <button
             key={city}
             onClick={() => searchWeather(city)}
-            className={`p-3 bg-${isDarkMode ? 'weather-dark' : 'weather-light'}/30 rounded-xl text-left 
+            className={`p-3 bg-${isDarkMode ? 'weather-card-light' : 'weather-card-light'}/30 rounded-xl text-left 
               hover:bg-${isDarkMode ? 'weather-dark' : 'weather-light'}/50 
               focus:outline-none focus:ring-2 focus:ring-weather-accent
               transition-colors`}

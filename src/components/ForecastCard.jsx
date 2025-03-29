@@ -31,7 +31,7 @@ export const ForecastCard = () => {
 
   if (loading) {
     return (
-      <div className={`bg-${isDarkMode ? 'weather-card-dark' : 'weather-card-light'} rounded-2xl p-6`}>
+      <div className={`bg-${isDarkMode ? 'weather-card-dark' : 'weather-card-light'} shadow-lg rounded-2xl p-6`}>
         <h2 className={`text-xl font-semibold mb-4 text-${isDarkMode ? 'weather-text-dark' : 'weather-text-light'}`}>
           5-Day Forecast
         </h2>
@@ -54,7 +54,7 @@ export const ForecastCard = () => {
   }
 
   return (
-    <div className={`bg-${isDarkMode ? 'weather-card-dark' : 'weather-card-light'} rounded-2xl p-6`}>
+    <div className={`bg-${isDarkMode ? 'weather-card-light' : 'weather-card-light'} shadow-lg rounded-2xl p-6`}>
       <h2 className={`text-xl font-semibold mb-4 text-${isDarkMode ? 'weather-text-dark' : 'weather-text-light'}`}>
         5-Day Forecast
       </h2>

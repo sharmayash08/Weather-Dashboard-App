@@ -29,7 +29,7 @@ export const SunriseSunset = () => {
   );
 
   return (
-    <div className={`bg-${isDarkMode ? 'weather-card-dark' : 'weather-card-light'} rounded-2xl p-6 mt-6`}>
+    <div className={`bg-${isDarkMode ? 'weather-card-light' : 'weather-card-light'} shadow-lg rounded-2xl p-6 mt-6`}>
       <h2 className={`text-xl font-semibold mb-4 text-${isDarkMode ? 'weather-text-dark' : 'weather-text-light'}`}>
         Sunrise & Sunset
       </h2>
